@@ -1,0 +1,5 @@
+a = float(input())
+h = int(a//30)
+m = int((a%30)//(30/60))
+s = int((a%(30/60))//(30/3600))
+print(h, m, s)
