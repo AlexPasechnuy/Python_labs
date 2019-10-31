@@ -1,6 +1,5 @@
 def capitalize(word):
-    first = word[0]
-    first = chr(ord(first) - 32)
+    first = chr(ord(word[0]) - 32)
     return first + word[1:]
 
 source = input().split()
